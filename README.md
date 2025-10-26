@@ -1,16 +1,17 @@
-# Pre-Entrega Automatización QA — Hernán Luciano
+# Pre-Entrega Automatización QA — Saucedemo
 
-## Propósito del proyecto
-Este proyecto automatiza flujos básicos de navegación y validación funcional sobre la web demo [SauceDemo](https://www.saucedemo.com), aplicando técnicas de automatización vistas en el curso de QA. El objetivo es asegurar que los casos de uso esenciales del sitio funcionen correctamente y practicar la integración de Selenium y Pytest.
+Automatización básica de Login y validaciones del inventario con Selenium + Pytest.
 
-## Tecnologías utilizadas
-- **Python 3**
-- **Selenium WebDriver**
-- **Pytest**
-- **pytest-html** (para reportes en formato HTML)
+## Requerimientos
+Python 3
+pip
+Chrome + chromedriver
 
+## Dependencias
+pip install selenium pytest pytest-html
 
-
+## Ejecutar pruebas y generar reporte
+pytest -v --html=reports/reporte.html
 
 
 
