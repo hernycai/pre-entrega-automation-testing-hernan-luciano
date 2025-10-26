@@ -1,17 +1,17 @@
-# Pre-Entrega Automatización QA — Saucedemo
+# Pre-Entrega Automatización QA
 
-Automatización básica de Login y validaciones del inventario con Selenium + Pytest.
+Automatización de saucedemo.com con Selenium y Pytest.
 
-## Requerimientos
-Python 3
-pip
-Chrome + chromedriver
+## Tecnologías
+- Python
+- Selenium WebDriver
+- Pytest
+- webdriver-manager
 
-## Dependencias
-pip install selenium pytest pytest-html
+## Instalación
+pip install -r requirements.txt
 
-## Ejecutar pruebas y generar reporte
-pytest -v --html=reports/reporte.html
+## Ejecución
+python main.py
 
-
-
+Genera report.html en raíz.
